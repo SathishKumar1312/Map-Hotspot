@@ -15,6 +15,18 @@ body {
   background-attachment: fixed;
 }
 
+@media only screen and (max-width: 1000px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .slide1 {
+    margin-top: 77px;
+    margin-left: -400px;
+  }
+}
+
 header {
   background-color: #222;
   color: #fff;
