@@ -20,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    min-height: auto;
   }
   .slide1 {
     margin-top: 77px;
